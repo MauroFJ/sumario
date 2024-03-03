@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaQuerry.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="esquerda">
+      <h2>Your Result</h2>
+      <div class="vitrine">
+        <div class="destaque"><p>76</p></div> 
+        <div class="secundario"><p>of 100</p></div>
+      </div>
+      <h1>Great</h1>
+      <p class="texto">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    <section class="direita">
+      <h2 class="sumario">Summary</h2>
+      
+      <ul>
+          <li class="reaction">
+            <p class="separar">
+              <img src="assets/images/icon-reaction.svg" alt="icone">
+              Reaction
+            </p>
+            <div class="cor">
+              <p><span class="negrito">80</span> / 100</p>
+            </div>
+          </li>
+      
+          <li class="memory">
+            <p class="separar">
+              <img src="assets/images/icon-memory.svg" alt="icone">
+              Memory
+            </p>
+            <div class="cor">
+              <p><span class="negrito">92</span> / 100</p>
+            </div>
+          </li>
+      
+          <li class="verbal">
+            <p class="separar">
+              <img src="assets/images/icon-verbal.svg" alt="icone">
+              Verbal
+            </p>
+            <div class="cor">
+              <p><span class="negrito">61</span> / 100</p>
+            </div>
+          </li>
+      
+          <li class="visual">
+            <p class="separar">
+              <img src="assets/images/icon-visual.svg" alt="icone">
+              Visual
+            </p>
+            <div class="cor">
+              <p><span class="negrito">72</span> / 100</p>
+            </div>
+          </li>
+      </ul>
+      <a href="#">Continue</a>
+    </section>
+    
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/MauroFJ/" target="_blank">Mauro</a>.
+  </div>
+</body>
+</html>
